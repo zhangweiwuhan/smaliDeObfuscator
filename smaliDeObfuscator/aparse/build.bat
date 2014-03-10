@@ -1,0 +1,2 @@
+#java -cp aparse-2.3.jar com.parse2.aparse.Parser -package com.litecoding.smali2java.parser -destdir ./parser smali.abnf 
+java -cp aparse-2.3.jar com.parse2.aparse.Parser -package com.zhangwei.parser -destdir smali2java smali.abnf.txt

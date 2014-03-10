@@ -1,0 +1,23 @@
+#####BASIC RULES#####
+HTAB = %x09;
+CR = %x0d;
+LF = %x0a;
+SP = %x20;
+CRLF = [CR] LF;
+QUOT = %x22;
+SINGLE_QUOT = %x27;
+HASH = %x23;
+COMMA = %x2c;
+DOT = %x2e;
+COLON = %x3a;
+SEMICOLON = %x3b;
+EQ = %x3d;
+UNDERSCORE = "_";
+ALPHA = %x41-5a / %x61-7a;
+DIGIT = %x30-39;
+HEXDIG = DIGIT / "A" / "B" / "C" / "D" / "E" / "F" ;
+VCHAR = %x20-7e;
+VCHAR_WITHOUT_QUOT = %x20 / %x21 / (%x23-26) / (%x28-7e);
+SUB = %x2d;
+BRACE_PRE = %x7b;
+BRACE_POS = %x7d;
